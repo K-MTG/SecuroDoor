@@ -10,7 +10,7 @@ Once the Raspberry Pi determines the user’s smartphone is in range (bluetooth)
 1. Install [Python Facial API](https://github.com/ageitgey/face_recognition "Install Face Recognition API")
 2. Create a folder in the "known_people" directory with user's name. Insert the user's photo into that folder (more the better).
 3. Create and train the KNN classifier (python3 knn_train.py)
-4. Modify the "users" dictionary in main.py with the user’s name and bluetooth Mac Address. You may also need to pair the phone to the Raspberry Pi. Edit server and serial path as/if needed. 
+4. Modify the "users" dictionary in main.py with the user’s name and bluetooth mac address. You may also need to pair the phone to the Raspberry Pi. Edit server and serial path as/if needed. 
 5. python3 main.py to launch the app
 
 
