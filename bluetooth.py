@@ -30,8 +30,3 @@ def get_rssi(mac):
     except:
         return 0
    
-
-
-
-# Kamran's iPhone: FC:2A:9C:BD:2F:CC
-# Mac Mini: AC:29:3A:EB:0A:09
